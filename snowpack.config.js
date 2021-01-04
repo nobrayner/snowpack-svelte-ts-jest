@@ -13,10 +13,11 @@ module.exports = {
     /* ... */
   ],
   installOptions: {
-    /* ... */
+    polyfillNode: true,
   },
   devOptions: {
-    /* ... */
+    port: 3000,
+    open: 'none',
   },
   buildOptions: {
     /* ... */
